@@ -1,0 +1,23 @@
+.result_ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.correct {
+  color: #3f784c;
+  font-weight: 700;
+}
+
+.incorrect {
+  color: #b20d30;
+  font-weight: 700;
+}
+
+.result_total{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
